@@ -2,10 +2,27 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-  "name": "Felipe",
-  "email": "teste@teste.com"
+  "name": "João",
+  "email": "joao@teste.com",
+  "referrer": "cee88efa-ac23-4243-97c8-4169204b5c13"
 }
 
 ###
 
 GET http://localhost:3333/invites/123456
+
+###
+
+GET http://localhost:3333/subscribers/cee88efa-ac23-4243-97c8-4169204b5c13/ranking/clicks
+
+###
+
+GET http://localhost:3333/subscribers/cee88efa-ac23-4243-97c8-4169204b5c13/ranking/count
+
+###
+
+GET http://localhost:3333/subscribers/cee88efa-ac23-4243-97c8-4169204b5c13/ranking/position
+
+###
+
+GET http://localhost:3333/ranking
