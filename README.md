@@ -1,0 +1,8 @@
+# BIOME
+# REST Client
+# FASTIFY
+# DOCKER
+# ZOD
+# REDIS
+# POSTGRESS (DB)
+# DRIZZLE (ORM)
